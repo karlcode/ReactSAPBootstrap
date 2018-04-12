@@ -1,0 +1,27 @@
+body{
+	font-family: 'Lora', sans-serif;
+	padding-top: 55px;
+
+}
+.vertical-align {
+    display: flex;
+    align-items: baseline;
+}
+
+.vertical-align .top {
+    align-self: baseline;
+}
+
+.vertical-align .center {
+    align-self: center;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.discontinued {
+    color: red;
+    font-weight: bold;
+}
