@@ -69,7 +69,7 @@ render: function() {
 			<h4>{this.props.row.ProductName}</h4>
 			<p> {this.props.row.QuantityPerUnit}</p>
 		</div>
-		<div className="col-sm-3 text-right top">
+		<div className="col-sm-3 text-right ">
 			<h4>
 				<CurrencyDisplay value={this.props.row.UnitPrice} />
 				
